@@ -32,7 +32,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEP1iZpIbqC1oXAVuwP0n3b9oNnnHRlvQAC0g4AAqVyqVcL00FzQjR1ZjYE")
+            await message.reply_sticker("CAACAgUAAxkBAAIe72mqfmL7cPOdiA5TOr6Gsih09cVTAALgGQACfA2YVRl1rlBfNwT5HgQ")
             return await message.reply_photo(
                 photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -126,11 +126,11 @@ async def start_pm(client, message: Message, _):
             await asyncio.sleep(0.1)
             await lols.edit_text("**⚡ѕтαятιиg.**")
 
-            await lols.edit_text("**⚡ѕтαятιиg....@HANTHAR999🇲🇲**")
+            await lols.edit_text("**⚡ѕтαятιиg....🇲🇲**")
 
             await lols.edit_text("**⚡ѕтαятιиg.**")
             await lols.edit_text("**⚡ѕтαятιиg....**")
-            m = await message.reply_photo("https://files.catbox.moe/ffsk8y.jpg")
+            m = await message.reply_sticker("CAACAgUAAxkBAAIe72mqfmL7cPOdiA5TOr6Gsih09cVTAALgGQACfA2YVRl1rlBfNwT5HgQ")
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
