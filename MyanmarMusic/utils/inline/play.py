@@ -84,10 +84,9 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="Owner", url="https://t.me/Myanmar_Family7"),
-            InlineKeyboardButton(text="Support", url="https://t.me/myanmar_music_Bot2027"),
+            InlineKeyboardButton(text="MYANMAR", url="https://t.me/Myanmar_Family7"),
+            InlineKeyboardButton(text="အချစ်များ💞", url="https://t.me/myanmar_music_Bot2027"),
         ],
-        [InlineKeyboardButton(text="Premium Shop", url="https://t.me/HANTHAR_1999")],
     ]
     return buttons
 
