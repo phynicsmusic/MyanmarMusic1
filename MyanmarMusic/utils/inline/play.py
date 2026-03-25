@@ -67,10 +67,9 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="Owner", url="https://t.me/Myanmar_Family7"),
-            InlineKeyboardButton(text="Support", url="https://t.me/myanmar_music_Bot2027"),
+            InlineKeyboardButton(text="MYANMR🇲🇲", url="https://t.me/Myanmar_Family7"),
+            InlineKeyboardButton(text="အချစ်များ💞", url="https://t.me/myanmar_music_Bot2027"),
         ],
-        [InlineKeyboardButton(text="Premium Shop", url="https://t.me/HANTHAR_1999")],
     ]
     return buttons
 
