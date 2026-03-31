@@ -68,9 +68,9 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(text="ပိုင်ရှင်", url="https://t.me/THANMINHTWE"),
-            InlineKeyboardButton(text="အပ်ဒိတ်ချန်နယ်", url="https://t.me/ThaePhyuMusic1"),
+            InlineKeyboardButton(text="အပ်ဒိတ်ချန်နယ်", url="https://t.me/TMHTelegramBots"),
         ],
-        [InlineKeyboardButton(text="အကူအညီ", url="https://t.me/ThaePhyuMusic2")],
+        [InlineKeyboardButton(text="အကူအညီ", url="https://t.me/THANMINHTWEFAMILY")],
     ]
     return buttons
 
@@ -85,9 +85,9 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(text="ပိုင်ရှင်", url="https://t.me/THANMINHTWE"),
-            InlineKeyboardButton(text="အပ်ဒိတ်ချန်နယ်", url="https://t.me/ThaePhyuMusic1"),
+            InlineKeyboardButton(text="အပ်ဒိတ်ချန်နယ်", url="https://t.me/TMHTelegramBots"),
         ],
-        [InlineKeyboardButton(text="အကူအညီ", url="https://t.me/ThaePhyuMusic2")],
+        [InlineKeyboardButton(text="အကူအညီ", url="https://t.me/THANMINHTWEFAMILY")],
     ]
     return buttons
 
